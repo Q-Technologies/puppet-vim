@@ -1,0 +1,43 @@
+{
+  "name": "qtechnologies/vim",
+  "version": "1.0.0",
+  "author": "Q-Technologies",
+  "summary": "Puppet module to manage system wide settings and plugins for vim",
+  "license": "Apache-2.0",
+  "tags": ["vim","editors"],
+  "source": "https://github.com/Q-Technologies/puppet-vim.git",
+  "project_page": "https://github.com/Q-Technologies/puppet-vim",
+  "issues_url": "https://github.com/Q-Technologies/puppet-vim/issues",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"Darwin",
+      "operatingsystemrelease": [
+        "15"
+      ]
+    },
+    {
+      "operatingsystem":"Debian",
+      "operatingsystemrelease": [
+        "7.0",
+        "8.0"
+      ]
+    },
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease": [
+        "6.0",
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [ 
+        "11",
+        "12"
+     ]
+    }
+  ],
+  "data_provider": "hiera"
+}
+
